@@ -1,10 +1,11 @@
-import turtle
-
-turtle.speed(0)
-turtle.color("red")
-turtle.pensize(10)
-
-turtle.left(45)
-turtle.forward(70)
-
-turtle.done()
+import turtle as t
+t.color("blue")
+t.pensize(15)
+t.speed(0)
+t.setheading(270)
+t.forward(100)
+t.color("red")
+t.pensize(10)
+t.left(45)
+t.forward(70)
+t.done()
